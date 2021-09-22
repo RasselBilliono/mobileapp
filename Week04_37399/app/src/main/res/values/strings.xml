@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Week04_37399</string>
+    <string name="text_sending">Send</string>
+    <string name="webpage">Webpage</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_browse">Browser</string>
+    <string name="return_msg">Return Msg</string>
+    <string name="btn_reply">Reply</string>
+    <string name="tv_msg_received">Msg Received</string>
+</resources>
