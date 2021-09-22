@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Week04_37399_2</string>
+    <string name="str_nama">Rassel Billiono - 00000037399</string>
+    <string name="btn_main_change_1">Halaman 1</string>
+    <string name="btn_main_change_2">Halaman 2</string>
+    <string name="str_tulisan">Tulisan</string>
+    <string name="str_ganti_tulisan">Ganti Tulisan</string>
+    <string name="str_send_to_frag01">Send To Fragment01</string>
+    <string name="str_send_to_frag02">Send To Fragment02</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_Fragment01">This is Fragment01</string>
+    <string name="str_Fragment02">This is Fragment02</string>
+    <string name="btn_back_home">Home</string>
+</resources>

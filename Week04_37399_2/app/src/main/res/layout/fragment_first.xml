@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="6dp"
+        android:textSize="24sp"
+        android:text="@string/str_Fragment01" />
+    <TextView
+        android:id="@+id/get_from_frag02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="6dp"
+        android:textSize="20sp"
+        tools:text="@string/str_Fragment01"
+        android:visibility="invisible"
+        tools:visibility="visible"
+        android:textColor="@android:color/holo_red_light"
+        />
+    <EditText
+        android:id="@+id/send_to_frag02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/str_send_to_frag02"
+        android:layout_margin="6dp"
+        android:textSize="20sp"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/btn_send_to_fragment02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_send_to_frag02"
+        android:layout_margin="6dp"
+        />
+</LinearLayout>

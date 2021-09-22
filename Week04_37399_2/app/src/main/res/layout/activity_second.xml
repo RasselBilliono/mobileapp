@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="umn.ac.id.week04_37399_2.SecondActivity"
+    android:orientation="vertical">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/second_activity_fragment01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="umn.ac.id.week04_37399_2.FirstFragment"
+        />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/second_activity_fragment02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="umn.ac.id.week04_37399_2.SecondFragment"
+        />
+
+    <Button
+        android:id="@+id/btn_back_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_back_home"
+        android:layout_margin="24dp"
+        android:backgroundTint="@android:color/black"
+        />
+</LinearLayout>
